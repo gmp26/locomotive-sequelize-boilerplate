@@ -13,7 +13,7 @@ module.exports = function(done) {
   });
 
   // keep track of all models in a 'model registry'
-  var registry  = require('app/models');
+  var registry  = require('../../app/models.js');
 
   // find models and load them
   var modelsdir = __dirname + '/../../app/models';
