@@ -11,7 +11,7 @@
     "ejs-locals": "~1.0.2",
     "flashify": "~0.1.0",
     "sequelize": "~1.6.0-beta4",
-    "sqlite3": "~2.1.5",
+    "mysql": "*",
     "should": "~1.2.1",
     "mocha": "~1.8.1"
   },
