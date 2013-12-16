@@ -6,9 +6,17 @@ var Sequelize = require("sequelize");
 // setup sequelize
 module.exports = function(done) {
   // store reference to sequelize in app instance
+  /*
   this.sequelize = new Sequelize(null, null, null, {
     dialect : 'sqlite',
     storage : 'locomotive-sequelize-boilerplate.db',
+    logging : this.env == 'development' ? console.log : false
+  });
+  */
+  this.sequelize = new Sequelize('loco', 'user', 'password', {
+    host: 'localhost',
+    dialect : 'mysql',
+    //storage : 'locomotive-sequelize-boilerplate.db',
     logging : this.env == 'development' ? console.log : false
   });
 
