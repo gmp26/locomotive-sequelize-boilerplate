@@ -45,3 +45,7 @@ like this:
 ```
 npm test
 ```
+
+## On the web
+
+See [RedoTheWeb usage](http://redotheweb.com/2013/02/20/sequelize-the-javascript-orm-in-practice.html)
