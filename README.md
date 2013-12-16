@@ -48,4 +48,9 @@ npm test
 
 ## On the web
 
-See [RedoTheWeb usage](http://redotheweb.com/2013/02/20/sequelize-the-javascript-orm-in-practice.html)
+See 
+* [RedoTheWeb usage](http://redotheweb.com/2013/02/20/sequelize-the-javascript-orm-in-practice.html)
+* [Alternatives to Sequelize](http://dailyjs.com/2013/04/15/node-database-library/)
+* [Alternative migration library](https://npmjs.org/package/db-migrate)
+* [Prezi Tutorial](http://prezi.com/-uyqa26lktqp/sequelizejs/)
+* [More Sequelize migration docs & examples](http://nodeqa.com/nodejs_ref/32#usage)
