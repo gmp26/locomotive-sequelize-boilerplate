@@ -3,17 +3,17 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "locomotive": "0.3.x",
-    "express": "3.x.x",
-    "connect-powered-by": "0.1.x",
-    "ejs": "0.8.x",
+    "locomotive": "~0.3.7",
+    "express": "~3.4.7",
+    "connect-powered-by": "~0.1.0",
+    "ejs": "~0.8.5",
     "async": "~0.1.22",
     "ejs-locals": "~1.0.2",
-    "flashify": "~0.1.0",
-    "sequelize": "~1.6.0-beta4",
-    "mysql": "*",
-    "should": "~1.2.1",
-    "mocha": "~1.8.1"
+    "flashify": "~0.1.2",
+    "sequelize": "~1.6.0",
+    "mysql": "~2.0.0-rc2",
+    "should": "~1.2.2",
+    "mocha": "~1.8.2"
   },
   "scripts": {
     "start": "lcm server --use-nodemon -w",
